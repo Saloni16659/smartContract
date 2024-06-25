@@ -1,6 +1,6 @@
 # Understanding Error Handling
 
-Understanding Error handling in Solidity using require(), assert() and reset() statements.
+Understanding Error handling in Solidity using require(), assert() and revert() statements.
 
 ## Description
 
@@ -40,7 +40,7 @@ function deposit() public payable {
     }
 ```
 
-3. Code for reset() function.
+3. Code for revert() function.
 ``` Solidity
 function resetBalance() public {
         // Using reset() to check whether the caller is owner
